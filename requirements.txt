@@ -1,0 +1,7 @@
+torch>=2.0.0
+transformers==4.45.2
+datasets>=2.14.0
+evaluate>=0.4.0
+seqeval>=1.2.2
+tqdm>=4.66.0
+numpy>=1.24.0
