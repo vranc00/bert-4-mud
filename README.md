@@ -1,20 +1,19 @@
-!git clone https://github.com/vranc00/bert-4-mud.git
+### Istruzioni per l'uso
 
-%cd bert-4-mud
+1. Clonare la repository da GitHub:
 
-!pip install transformers==4.55.0
-!pip install datasets
-!pip install evaluate
-!pip install transformers datasets seqeval
-!pip install seqeval transformers evaluate
+```
+git clone https://github.com/vranc00/bert-4-mud.git
+```
 
+2. Installare le dipendenze:
 
+```
+pip install -r requirements.txt
+```
 
-#Esegui lo script train.py con i parametri desiderati
-!python moduli/train.py \
---base_dir "data-evalita-2023" \
---epochs 3 \
---batch_size 16 \
---lr 2e-5 \
---num_runs 3 \
---output_dir "runs/bert_manual_opt"
+3. Eseguire lo script train.py con i parametri desiderati:
+
+```
+python train.py
+```
