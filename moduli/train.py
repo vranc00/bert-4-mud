@@ -15,7 +15,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Fine-tuning BERT NER ottimizzato")
-    parser.add_argument("--base_dir", type=str, default="/content/drive/MyDrive/Progetto/KIND-main/evalita-2023")
+    parser.add_argument("--base_dir", type=str, default="data-evalita-2023")
     parser.add_argument("--model_name", type=str, default="dbmdz/bert-base-italian-cased")
     parser.add_argument("--epochs", type=int, default=3)
     parser.add_argument("--batch_size", type=int, default=16)
